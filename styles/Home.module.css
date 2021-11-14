@@ -1,188 +1,172 @@
 .container {
-	min-height: 100vh;
-	padding: 0 0.5rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
-	padding: 5rem 0;
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	width: 100%;
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
 }
 
 .blob {
-	position: absolute;
-	right: -45rem;
-	width: 90rem;
-	height: auto;
-	z-index: -999;
+  position: absolute;
+  right: -45rem;
+  width: 90rem;
+  height: auto;
+  z-index: -999;
 }
 
 .footer {
-	width: 100%;
-	height: 100px;
-	border-top: 1px solid #eaeaea;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer a {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .title a {
-	color: #0070f3;
-	text-decoration: none;
+  color: #0070f3;
+  text-decoration: none;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .title {
-	margin: 0;
-	line-height: 1.15;
-	font-size: 4rem;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
 }
 
 .title,
 .description {
-	text-align: center;
+  text-align: center;
 }
 
 .description {
-	line-height: 1.5;
-	font-size: 1.5rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
 }
 
 .code {
-	background: #fafafa;
-	border-radius: 5px;
-	padding: 0.75rem;
-	font-size: 1.1rem;
-	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-		Bitstream Vera Sans Mono, Courier New, monospace;
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	max-width: 800px;
-	margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
 }
 
 .card {
-	margin: 1rem;
-	padding: 1.5rem;
-	text-align: left;
-	color: inherit;
-	text-decoration: none;
-	border: 1px solid #eaeaea;
-	border-radius: 10px;
-	transition: color 0.15s ease, border-color 0.15s ease;
-	width: 45%;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 45%;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-	color: #0070f3;
-	border-color: #0070f3;
+  color: #0070f3;
+  border-color: #0070f3;
 }
 
 .card h2 {
-	margin: 0 0 1rem 0;
-	font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
 }
 
 .card p {
-	margin: 0;
-	font-size: 1.25rem;
-	line-height: 1.5;
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 .logo {
-	height: 1em;
-	margin-left: 0.5rem;
+  height: 1em;
+  margin-left: 0.5rem;
 }
 
 @media (max-width: 600px) {
-	.grid {
-		width: 100%;
-		flex-direction: column;
-	}
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 .waves svg {
-	width: 150vw;
+  width: 150vw;
 }
 
 .blobWave {
-	overflow: hidden;
-	line-height: 1.4;
-	text-align: center;
-	position: relative;
-	padding-top: 14vw;
-	padding-bottom: 6vw;
-	width: 100%;
-}
-
-.blobWave svg {
-	top: 3%;
-	left: 50%;
-	z-index: 0;
-	width: 200vw;
-	opacity: 0.9;
-	height: 200vw;
-	display: block;
-	margin-top: 15vw;
-	border-radius: 40%;
-	position: absolute;
-	margin-left: -100vw;
-	transform-origin: 50% 48%;
-	animation: rot 9000ms linear 0s infinite normal none running;
+  overflow: hidden;
+  line-height: 1.4;
+  text-align: center;
+  position: relative;
+  padding-top: 14vw;
+  padding-bottom: 6vw;
+  width: 100%;
 }
 
 .blo {
-	top: 3%;
-	left: 50%;
-	z-index: 0;
-	width: 300vw;
-	opacity: 0.9;
-	height: 300vw;
-	display: block;
-	margin-top: 20vw;
-	border-radius: 40%;
-	position: absolute;
-	margin-left: -150vw;
-	transform-origin: 50% 48%;
-	animation: rot 7000ms linear 0s infinite normal none running;
-	background: linear-gradient(103deg, rgb(220, 55, 55), rgb(241, 104, 53));
-	background-repeat: no-repeat;
-	background-size: cover;
+  top: 3%;
+  left: 50%;
+  z-index: 0;
+  width: 300vw;
+  opacity: 0.9;
+  height: 300vw;
+  display: block;
+  margin-top: 20vw;
+  border-radius: 40%;
+  position: absolute;
+  margin-left: -150vw;
+  transform-origin: 50% 48%;
+  animation: rot 7000ms linear 0s infinite normal none running;
+  background: linear-gradient(103deg, rgb(220, 55, 55), rgb(241, 104, 53));
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @keyframes rot {
-	from {
-		transform: rotate(0);
-	}
+  from {
+    transform: rotate(0);
+  }
 
-	to {
-		transform: rotate(360deg);
-	}
+  to {
+    transform: rotate(360deg);
+  }
 }
